@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aerolinea" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aerolinea" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aerolinea" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="admin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="admin.h" />
+		<Unit filename="aerolinea.depend" />
+		<Unit filename="cambiodevuelo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cambiodevuelo.h" />
+		<Unit filename="cancelaciondeboleto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cancelaciondeboleto.h" />
+		<Unit filename="chequeoDeVuelos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chequeoDeVuelos.h" />
+		<Unit filename="chequeodeboleto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chequeodeboleto.h" />
+		<Unit filename="conteo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conteo.h" />
+		<Unit filename="crearAviones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearAviones.h" />
+		<Unit filename="crearBoletos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearBoletos.h" />
+		<Unit filename="crearLineas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearLineas.h" />
+		<Unit filename="crearPasajeros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearPasajeros.h" />
+		<Unit filename="crearPilotos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearPilotos.h" />
+		<Unit filename="crearVuelos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearVuelos.h" />
+		<Unit filename="ia.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ia.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuadmin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuadmin.h" />
+		<Unit filename="menucliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menucliente.h" />
+		<Unit filename="menuinicio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menuinicio.h" />
+		<Unit filename="staerolinea.h" />
+		<Unit filename="stavion.h" />
+		<Unit filename="stpasajeros.h" />
+		<Unit filename="stpiloto.h" />
+		<Unit filename="tiempoVuelo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tiempoVuelo.h" />
+		<Unit filename="ventadeboletos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ventadeboletos.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+#include"cifrado.c"
+
+#include"descifrado.c"
+
+#include"imprimir.c"
+
+#define p printf
+
+#define s scanf
+
+#define MAX 1
+int main(){
+        struct nodo objENTE[MAX];
+        int intContador;
+
+        p("vamos a leer %d elementos.\n",MAX);
+
+        for (intContador=0;intContador<MAX;intContador++);{
+
+             p("elemento%d\n",intContador+1);
+
+             objENTE[intContador]=llenarNodo();
+        }
+        printf("imprimir elementos\n");
+
+        for (intContador=0;intContador<MAX;intContador++);{
+
+             p("elemento%d\n",intContador+1);
+
+             imprimirNodo(objENTE[intContador])
+        }
+        printf("done!");
+        return 0;
+}

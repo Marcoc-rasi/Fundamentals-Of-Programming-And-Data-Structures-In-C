@@ -1,0 +1,1 @@
+void crearPilotos(listaPIL **listaPilotos);

@@ -1,0 +1,1 @@
+int conteo(listaAV **,listaPIL **);

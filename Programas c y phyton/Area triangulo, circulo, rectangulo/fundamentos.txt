@@ -1,0 +1,38 @@
+17. Realizar un programa que sirva para calcular el área de un triángulo 2
+a1=(b*h/2) o el
+área de un rectángulo Ar= b*h   o el área de un círculo ac=pir*r
+
+#include <stdio.h>
+
+main ()
+{ 
+  int op;
+float b, h, areat, arear, areac, r, pi=3.1416;
+  printf("\n\n\t hola este programa calcula el area de un triangulo segun lo desee\n\t");
+  printf("\n\n\t si desea calcular el area de triangulo ingrese 1, de un rectangulo 2 y de un ciculo 3\n\t");
+   scanf("%i",&op);
+   switch (op)
+{
+  case '1': 
+           printf("\n\n\t dame la base y la altura separadas por un espacio\n\t");
+           scanf("%f %f", &b, &h);
+           areat=(b*h*1.0)/2;
+           printf("\n\n\tel area de tu triangulo es de %f metros cuadrados",areat);
+           break;
+   case '2':
+            printf("\n\n\t dame la base y la altura de tu rectanguko separadas por un espacio\n\t");
+            scanf("%f %f", &b, &h);
+            arear=b*h*1.0;
+            printf("\n\n\t el area de tu rectangulo es %f metros cuadrados",arear);
+            break;
+   case '3':
+            printf("\n\n\t dame el radio de tu circulo\n\t");
+            scanf("%f",&r);
+            areac=pi*r*r;
+            printf("\n\n\t el area de tu circulo es %f metros cuadrados",areac);
+            break;
+   default:
+          printf("\n\n\t elige una opcion correcta");
+}
+}
+     

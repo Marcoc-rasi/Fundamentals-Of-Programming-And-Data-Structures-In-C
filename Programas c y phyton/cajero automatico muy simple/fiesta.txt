@@ -1,0 +1,54 @@
+#include <stdio.h>
+#define p printf
+#define s scanf
+main()
+{
+int edad, conth,contm18=0, contm26=0, contms=0, totalm, totalp;
+char genero, resp, resp2;
+    do
+   {
+    p("\n\n\thola este es ZEn city tenemos que cubrir algunos requisitos antes de entrar\n\t");
+    p("\n\n\t que edad tienes\n\t");
+    s("%i",&edad);
+    if (edad<18)
+    
+      p("\n\n\t lo sentimos este lugar solo admite mayores de edad\n\t");
+    else
+    {p("\n\n\tprimero es el genero si es masculino inserte m si es femenino f");   
+     s("%s",&genero); 
+       switch (genero)
+       {
+       case 'm': case'M':
+          conth=conth+1;
+          p("\n\n\tBienbenidos a Zen CiTy disfrute su estancia\n\t");
+          break;
+       case 'f': case 'F':
+          if (edad<=26)
+            {
+            p("\n\n\t es usted soltera si su respuesta es afirmativa inserte 's' si no inserte 'n'\n\t");
+            s("%s",&resp);   ///DEBE SER %s
+               if (resp=='s' || resp=='S' )///FALTARON ' ' EN s Y FALTO LA MAYUSCULAS S
+              
+                contms=contms+1; 
+               else
+                contm18=contm18+1; //FALTO ;
+             }
+           else
+         contm26=contm26+1; //FALTO ;
+        
+         p("\n\n\tBienbenido a a Zen City disfrute su estancia\n\t");
+         break;
+     default:
+         p("\n\n\tinserte un genero que este en la lista\n\t");
+    }
+    p("\n\n\tsi aun quiere seguir encuestando ingrese v si ya quiere acabar ingrese s\n\t");
+    
+    scanf("%s", &resp2);//FALTO ESTE SCANF Y DEBE SER %s ES CARACTER
+  } 
+    }
+    while (resp2=='v'|| resp2=='V'); 
+    totalp=conth+contm26+contm18+contms;
+    totalm=contm26+contm18+contms;
+    p("\n\n\t en tontal a la fiesta asistieron %i personas de las cuales %i hombres y %i mujeres",totalp,conth,totalm);
+   p("\n\n\t en total hay %i mujeres mayores de 26 añ%i mujeres menores de 25 añsolteras y %i mujeres menores de 25 que igual y se animan\n\t",contm26,contms, contm18);
+}

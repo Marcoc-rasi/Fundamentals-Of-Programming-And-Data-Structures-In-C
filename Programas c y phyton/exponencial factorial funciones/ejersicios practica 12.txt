@@ -1,0 +1,17 @@
+4.- Implemente funciones que nos permitan calcular:
+    x^n, x! y [n/m,]
+
+5.- Escriba una función que, dados dos números enteros, nos diga si cualquiera de ellos divide o no al 
+otro.
+
+6.- Dos números amigos son dos enteros positivos a y b tales que a es la suma de los divisores 
+propios de b y b es la suma de los divisores propios de a. (La unidad se considera divisor propio, 
+pero no lo es el mismo número).
+Un ejemplo de números amigos es el par (220, 284), ya que:
+* Los divisores propios de 220 son 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 y 110, 
+que suman 284 * Los divisores propios de 284 son 1, 2, 4, 71 y 142, que suman 220.
+
+7.- Escribe un programa en C que permita calcular la probabilidad de que aparezcan las figuras al 
+escoger tres cartas de entre las de un palo de la baraja. Utiliza la fórmula de combinación:
+
+V p/n=n!/(n-p)!

@@ -1,0 +1,94 @@
+4.- Implemente funciones que nos permitan calcular:
+    x^n, x! y [n/m,]
+#include <stdio.h>
+#include <stdlib.h>
+#define p printf
+#define s scanf
+void exponencial (int num,exp);
+void factorial (int num);
+void probavilidad (int n,p);
+
+
+void exponencial (int num,exp)
+{
+int i;
+  for (i=0;i<(exp-2);i++)
+     num=num*num;
+}
+
+void factorial (int num)
+{
+ int fac;
+     fac=num;
+        do
+         {
+          num=num-1;
+          fac=fac*num;
+         }
+          while(num>0);
+         
+void factorial (int n,p)
+{
+ int v,facn,facnp,np;
+
+    
+     facn=n;
+        do
+         {
+          n=n-1;
+          facn=facn*n;
+         }
+          while(n>0);
+     np=n-p;
+     facnp=np;
+        do
+         {
+          np=np-1;
+          facnp=facnp*np;
+         }
+          while(np>0);
+     v=facn/facnp;
+}
+         
+
+         
+
+main()
+{
+char resp;
+int num,exp,n,p;
+    p("\n\n\thola con este programa tienes las siguientes opciones\n\ta)exponencial\n\tb)factorial\n\tc)probavilidad\n\t");
+    s("%c",&resp);
+    switch
+    {
+     case 'a': case 'A':
+                       p("\n\thola vamos a calcular es exponencial de un numero dame el numero y el exponente separados por un espacio\n\t");
+                       s("%d %d",num,exp);
+                       void exponencial (int num,exp);
+ 
+     case 'b': case 'B':
+                       p("\n\thola vamos a calcular es factorial de un numero dame el numero\n\t")
+                       s("%d",num);
+                       void factorial (int num);
+     case 'c': case 'C':
+                       p("\n\thola vamos a sacar una probavilidad dame la n y la p separadas por un espacio\n\t");
+                       s("%d %d",n,p);
+                       void probavilidad (int n,p);
+                       }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

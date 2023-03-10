@@ -1,0 +1,23 @@
+10. Escribir un programa que calcule y muestre los valores que se obtienen al realizar
+sen(x) en un intervalo de valores para x. El usuario deberá introducir seleccionará el
+valor inicial, el valor final, así como el incremento de la x
+#include <stdio.h>
+#include <math.h>
+#define p printf
+#define s scanf
+main()
+{
+  float valori=0, valorf=0, resul=0, inc=0,i=0;
+
+  p("\n\n\t hola este programa te ayuda a tabular la funcion seno(x) por favor ingresa el valor inicial, el valor final y el incremento que quieres que tabule separadas por un espacio\n\t");
+  s(%f %f %f", &valori,&valorf, &inc");
+  p("\n\n\t valor de x         valor de y\n\t");
+
+   
+       for (i=valori;i<=valorf;i+=inc)
+        {
+              resul=sin(valori+inc);
+              p("\n\n\t%f\t%f",valori+inc,resul);
+        }
+}              
+  

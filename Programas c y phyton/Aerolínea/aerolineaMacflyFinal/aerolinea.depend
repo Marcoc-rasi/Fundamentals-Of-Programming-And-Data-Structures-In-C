@@ -1,0 +1,988 @@
+# depslib dependency file v1.0
+1478141880 source:c:\users\marcos\desktop\aerolinea\menuadmin.c
+
+1478141626 source:c:\users\marcos\desktop\aerolinea\menuinicio.c
+
+1478141856 source:c:\users\marcos\desktop\aerolinea\menucliente.c
+
+1480057748 source:c:\users\marcos\desktop\aerolinea\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"menuinicio.h"
+	"menucliente.h"
+	"menuadmin.h"
+	"admin.h"
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+	"ia.h"
+	"crearAviones.h"
+	"crearBoletos.h"
+	"crearLineas.h"
+	"crearPasajeros.h"
+	"crearPilotos.h"
+	"crearDestino.h"
+	"tiempoVuelo.h"
+
+1478139432 c:\users\marcos\desktop\aerolinea\menuinicio.h
+
+1478140946 c:\users\marcos\desktop\aerolinea\menucliente.h
+
+1478140546 c:\users\marcos\desktop\aerolinea\menuadmin.h
+
+1478210838 c:\users\marcos\desktop\aerolinea\admin.h
+
+1480057683 source:c:\users\marcos\desktop\aerolinea\admin.c
+	<string.h>
+
+1478144906 source:c:\users\dell\desktop\aerolinea\admin.c
+	<string.h>
+
+1478141880 source:c:\users\dell\desktop\aerolinea\menuadmin.c
+
+1478141856 source:c:\users\dell\desktop\aerolinea\menucliente.c
+
+1478141626 source:c:\users\dell\desktop\aerolinea\menuinicio.c
+
+1478210604 source:c:\users\dell\desktop\aerolinea\ia.c
+
+1480055916 source:c:\users\marcos\desktop\aerolinea\crearaviones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1479767824 c:\users\marcos\desktop\aerolinea\stpiloto.h
+
+1480019376 c:\users\marcos\desktop\aerolinea\stpasajeros.h
+	"stpiloto.h"
+
+1480057512 c:\users\marcos\desktop\aerolinea\stavion.h
+	<time.h>
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480027504 c:\users\marcos\desktop\aerolinea\staerolinea.h
+
+1480020122 source:c:\users\marcos\desktop\aerolinea\crearboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpasajeros.h"
+
+1480027912 source:c:\users\marcos\desktop\aerolinea\crearlineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"staerolinea.h"
+
+1480053102 source:c:\users\marcos\desktop\aerolinea\crearpasajeros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480026704 source:c:\users\marcos\desktop\aerolinea\crearpilotos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+
+1479763490 source:c:\users\marcos\desktop\aerolinea\crearvuelos.c
+	<time.h>
+
+1480055028 source:c:\users\marcos\desktop\aerolinea\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1479927264 c:\users\marcos\desktop\aerolinea\ia.h
+
+1480053044 c:\users\marcos\desktop\aerolinea\crearaviones.h
+
+1479936862 c:\users\marcos\desktop\aerolinea\crearboletos.h
+
+1479928264 c:\users\marcos\desktop\aerolinea\crearlineas.h
+
+1480053034 c:\users\marcos\desktop\aerolinea\crearpasajeros.h
+
+1479927282 c:\users\marcos\desktop\aerolinea\crearpilotos.h
+
+1479713422 c:\users\marcos\desktop\aerolinea\crearvuelos.h
+
+1480056375 c:\users\marcos\desktop\aerolinea\tiempovuelo.h
+
+1480057649 source:c:\users\marcos\desktop\aerolinea\tiempovuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"stavion.h"
+
+1478144906 source:f:\aerolinea\admin.c
+	<string.h>
+
+1480027154 source:f:\aerolinea\crearaviones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1479767824 f:\aerolinea\stpiloto.h
+
+1480019376 f:\aerolinea\stpasajeros.h
+	"stpiloto.h"
+
+1480024850 f:\aerolinea\stavion.h
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480027504 f:\aerolinea\staerolinea.h
+
+1480020122 source:f:\aerolinea\crearboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpasajeros.h"
+
+1479932690 source:f:\aerolinea\crearlineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"staerolinea.h"
+
+1480019974 source:f:\aerolinea\crearpasajeros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+
+1480026704 source:f:\aerolinea\crearpilotos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+
+1479763490 source:f:\aerolinea\crearvuelos.c
+	<time.h>
+
+1478141880 source:f:\aerolinea\menuadmin.c
+
+1478141856 source:f:\aerolinea\menucliente.c
+
+1478141626 source:f:\aerolinea\menuinicio.c
+
+1479764154 source:f:\aerolinea\tiempovuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"stavion.h"
+
+1480027706 source:f:\aerolinea\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"menuinicio.h"
+	"menucliente.h"
+	"menuadmin.h"
+	"admin.h"
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+	"ia.h"
+	"crearAviones.h"
+	"crearBoletos.h"
+	"crearLineas.h"
+	"crearPasajeros.h"
+	"crearPilotos.h"
+	"crearDestino.h"
+	"tiempoVuelo.h"
+
+1478139432 f:\aerolinea\menuinicio.h
+
+1478140946 f:\aerolinea\menucliente.h
+
+1478140546 f:\aerolinea\menuadmin.h
+
+1478210838 f:\aerolinea\admin.h
+
+1479927264 f:\aerolinea\ia.h
+
+1480024164 f:\aerolinea\crearaviones.h
+
+1479936862 f:\aerolinea\crearboletos.h
+
+1479928264 f:\aerolinea\crearlineas.h
+
+1479936842 f:\aerolinea\crearpasajeros.h
+
+1479927282 f:\aerolinea\crearpilotos.h
+
+1479713424 f:\aerolinea\crearvuelos.h
+
+1479713634 f:\aerolinea\tiempovuelo.h
+
+1480021522 source:f:\aerolinea\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1479763490 source:f:\aerolinea\creardestino.c
+	<time.h>
+
+1479713424 f:\aerolinea\creardestino.h
+
+1479713424 c:\users\marcos\desktop\aerolinea\creardestino.h
+
+1480057586 source:c:\users\marcos\desktop\aerolinea\chequeodevuelos.c
+	"stavion.h"
+
+1480091741 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\admin.c
+	<string.h>
+
+1480108625 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\chequeodevuelos.c
+	"stavion.h"
+
+1480091743 c:\users\felix gasca\desktop\aerolinea\aerolinea\stavion.h
+	<time.h>
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480118766 c:\users\felix gasca\desktop\aerolinea\aerolinea\stpasajeros.h
+	"stpiloto.h"
+
+1480091743 c:\users\felix gasca\desktop\aerolinea\aerolinea\stpiloto.h
+
+1480091741 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\crearboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpasajeros.h"
+
+1480091742 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\crearlineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"staerolinea.h"
+
+1480091743 c:\users\felix gasca\desktop\aerolinea\aerolinea\staerolinea.h
+
+1480091742 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\crearpasajeros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480112401 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\crearpilotos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+
+1480091742 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\crearvuelos.c
+	<time.h>
+
+1480091742 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480091742 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\menuadmin.c
+
+1480116072 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\menucliente.c
+
+1480091742 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\menuinicio.c
+
+1480091743 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\tiempovuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"stavion.h"
+
+1480111395 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\conteo.c
+	"stavion.h"
+	"stpiloto.h"
+
+1480112613 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\crearaviones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480122562 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"menuinicio.h"
+	"menucliente.h"
+	"menuadmin.h"
+	"admin.h"
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+	"ia.h"
+	"crearAviones.h"
+	"crearBoletos.h"
+	"crearLineas.h"
+	"crearPasajeros.h"
+	"crearPilotos.h"
+	"crearDestino.h"
+	"tiempoVuelo.h"
+	"conteo.h"
+	"ventadeboletos.h"
+	"chequeodeboleto.h"
+	"chequeodeboleto.h"
+	"cancelaciondeboleto.h"
+	"cambiodevuelo.h"
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\menuinicio.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\menucliente.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\menuadmin.h
+
+1480091741 c:\users\felix gasca\desktop\aerolinea\aerolinea\admin.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\ia.h
+
+1480107765 c:\users\felix gasca\desktop\aerolinea\aerolinea\crearaviones.h
+
+1480091741 c:\users\felix gasca\desktop\aerolinea\aerolinea\crearboletos.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\crearlineas.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\crearpasajeros.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\crearpilotos.h
+
+1480091742 c:\users\felix gasca\desktop\aerolinea\aerolinea\creardestino.h
+
+1480091743 c:\users\felix gasca\desktop\aerolinea\aerolinea\tiempovuelo.h
+
+1480092261 c:\users\felix gasca\desktop\aerolinea\aerolinea\conteo.h
+
+1480124952 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\cambiodevuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480122701 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\cancelaciondeboleto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480125073 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\chequeodeboleto.c
+	<stdio.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480036096 c:\users\felix gasca\desktop\aerolinea\aerolinea\ventadeboletos.h
+
+1480040760 c:\users\felix gasca\desktop\aerolinea\aerolinea\chequeodeboleto.h
+
+1480042630 c:\users\felix gasca\desktop\aerolinea\aerolinea\cancelaciondeboleto.h
+
+1480043800 c:\users\felix gasca\desktop\aerolinea\aerolinea\cambiodevuelo.h
+
+1480124614 source:c:\users\felix gasca\desktop\aerolinea\aerolinea\ventadeboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+
+1480197304 source:c:\users\dell\desktop\aerolineafinal\aerolinea\admin.c
+	<string.h>
+
+1480197304 source:c:\users\dell\desktop\aerolineafinal\aerolinea\chequeodevuelos.c
+	"stavion.h"
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\stavion.h
+	<time.h>
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\stpasajeros.h
+	"stpiloto.h"
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\stpiloto.h
+
+1480197304 source:c:\users\dell\desktop\aerolineafinal\aerolinea\crearaviones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\staerolinea.h
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\crearboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpasajeros.h"
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\crearlineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"staerolinea.h"
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\crearpasajeros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\crearpilotos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\crearvuelos.c
+	<time.h>
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480206188 source:c:\users\dell\desktop\aerolineafinal\aerolinea\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"menuinicio.h"
+	"menucliente.h"
+	"menuadmin.h"
+	"admin.h"
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+	"ia.h"
+	"crearAviones.h"
+	"crearBoletos.h"
+	"crearLineas.h"
+	"crearPasajeros.h"
+	"crearPilotos.h"
+	"crearDestino.h"
+	"tiempoVuelo.h"
+	"conteo.h"
+	"ventadeboletos.h"
+	"chequeodeboleto.h"
+	"chequeodeboleto.h"
+	"cancelaciondeboleto.h"
+	"cambiodevuelo.h"
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\menuinicio.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\menucliente.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\menuadmin.h
+
+1480197304 c:\users\dell\desktop\aerolineafinal\aerolinea\admin.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\ia.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\crearaviones.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\crearboletos.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\crearlineas.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\crearpasajeros.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\crearpilotos.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\creardestino.h
+
+1480197305 c:\users\dell\desktop\aerolineafinal\aerolinea\tiempovuelo.h
+
+1480197304 c:\users\dell\desktop\aerolineafinal\aerolinea\conteo.h
+
+1480200681 c:\users\dell\desktop\aerolineafinal\aerolinea\ventadeboletos.h
+
+1480197304 c:\users\dell\desktop\aerolineafinal\aerolinea\chequeodeboleto.h
+
+1480197304 c:\users\dell\desktop\aerolineafinal\aerolinea\cancelaciondeboleto.h
+
+1480197304 c:\users\dell\desktop\aerolineafinal\aerolinea\cambiodevuelo.h
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\menuadmin.c
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\menucliente.c
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\menuinicio.c
+
+1480197305 source:c:\users\dell\desktop\aerolineafinal\aerolinea\tiempovuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"stavion.h"
+
+1480206002 source:c:\users\dell\desktop\aerolineafinal\aerolinea\cambiodevuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480205135 source:c:\users\dell\desktop\aerolineafinal\aerolinea\cancelaciondeboleto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480204640 source:c:\users\dell\desktop\aerolineafinal\aerolinea\chequeodeboleto.c
+	<stdio.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480205923 source:c:\users\dell\desktop\aerolineafinal\aerolinea\ventadeboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+
+1480197304 source:c:\users\dell\desktop\aerolineafinal\aerolinea\conteo.c
+	"stavion.h"
+	"stpiloto.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\admin.c
+	<string.h>
+
+1480215549 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\cambiodevuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\stpiloto.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\stpasajeros.h
+	"stpiloto.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\stavion.h
+	<time.h>
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\cancelaciondeboleto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\chequeodeboleto.c
+	<stdio.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\chequeodevuelos.c
+	"stavion.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\conteo.c
+	"stavion.h"
+	"stpiloto.h"
+
+1480209699 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearaviones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\staerolinea.h
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpasajeros.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearlineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"staerolinea.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearpasajeros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearpilotos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearvuelos.c
+	<time.h>
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"menuinicio.h"
+	"menucliente.h"
+	"menuadmin.h"
+	"admin.h"
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+	"ia.h"
+	"crearAviones.h"
+	"crearBoletos.h"
+	"crearLineas.h"
+	"crearPasajeros.h"
+	"crearPilotos.h"
+	"crearDestino.h"
+	"tiempoVuelo.h"
+	"conteo.h"
+	"ventadeboletos.h"
+	"chequeodeboleto.h"
+	"chequeodeboleto.h"
+	"cancelaciondeboleto.h"
+	"cambiodevuelo.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\menuinicio.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\menucliente.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\menuadmin.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\admin.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\ia.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearaviones.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearboletos.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearlineas.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearpasajeros.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\crearpilotos.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\creardestino.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\tiempovuelo.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\conteo.h
+
+1480206472 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\ventadeboletos.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\chequeodeboleto.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\cancelaciondeboleto.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineafinal\aerolinea\cambiodevuelo.h
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\menuadmin.c
+
+1480209060 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\menucliente.c
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\menuinicio.c
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\tiempovuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"stavion.h"
+
+1480208760 source:c:\users\felix gasca\desktop\aerolineafinal\aerolinea\ventadeboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineamacfly\admin.c
+	<string.h>
+
+1480215549 source:c:\users\felix gasca\desktop\aerolineamacfly\cambiodevuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\stpiloto.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\stpasajeros.h
+	"stpiloto.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\stavion.h
+	<time.h>
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480215821 source:c:\users\felix gasca\desktop\aerolineamacfly\cancelaciondeboleto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineamacfly\chequeodeboleto.c
+	<stdio.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+	"stpiloto.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineamacfly\chequeodevuelos.c
+	"stavion.h"
+
+1480206470 source:c:\users\felix gasca\desktop\aerolineamacfly\conteo.c
+	"stavion.h"
+	"stpiloto.h"
+
+1480209699 source:c:\users\felix gasca\desktop\aerolineamacfly\crearaviones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\staerolinea.h
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\crearboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpasajeros.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\crearlineas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"staerolinea.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\crearpasajeros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\crearpilotos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\crearvuelos.c
+	<time.h>
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\ia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"menuinicio.h"
+	"menucliente.h"
+	"menuadmin.h"
+	"admin.h"
+	"stpiloto.h"
+	"stpasajeros.h"
+	"stavion.h"
+	"staerolinea.h"
+	"ia.h"
+	"crearAviones.h"
+	"crearBoletos.h"
+	"crearLineas.h"
+	"crearPasajeros.h"
+	"crearPilotos.h"
+	"crearDestino.h"
+	"tiempoVuelo.h"
+	"conteo.h"
+	"ventadeboletos.h"
+	"chequeodeboleto.h"
+	"chequeodeboleto.h"
+	"cancelaciondeboleto.h"
+	"cambiodevuelo.h"
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\menuinicio.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\menucliente.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\menuadmin.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineamacfly\admin.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\ia.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\crearaviones.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\crearboletos.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\crearlineas.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\crearpasajeros.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\crearpilotos.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\creardestino.h
+
+1480206471 c:\users\felix gasca\desktop\aerolineamacfly\tiempovuelo.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineamacfly\conteo.h
+
+1480206472 c:\users\felix gasca\desktop\aerolineamacfly\ventadeboletos.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineamacfly\chequeodeboleto.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineamacfly\cancelaciondeboleto.h
+
+1480206470 c:\users\felix gasca\desktop\aerolineamacfly\cambiodevuelo.h
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\menuadmin.c
+
+1480209060 source:c:\users\felix gasca\desktop\aerolineamacfly\menucliente.c
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\menuinicio.c
+
+1480206471 source:c:\users\felix gasca\desktop\aerolineamacfly\tiempovuelo.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"stavion.h"
+
+1480208760 source:c:\users\felix gasca\desktop\aerolineamacfly\ventadeboletos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"stavion.h"
+	"stpasajeros.h"
+

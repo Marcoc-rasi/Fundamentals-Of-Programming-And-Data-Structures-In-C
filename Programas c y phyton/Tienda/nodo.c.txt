@@ -1,0 +1,87 @@
+#include<stdio.h>
+#define p printf
+"define s scanf
+struct nodo{
+char nombre[10],descripcion[100], ID;
+float precio;
+int  cantidad;
+char *marca[3];
+            
+
+struct nodo articulos[10];
+      articulo[0].ID=0;
+      articulo[0].nombre={"camisa"};
+      articulo[0].precio=70.93;
+      articulo[0].cantidad=0;
+      articulo[0].marca={"willson","nike",""};
+      articulo[0].descripcion={"hecha a base de nilon la camisa es muy comoda para hacerdeporte"};
+
+      articulo[1].ID=1;
+      articulo[1].nombre={"cloro"};
+      articulo[1].precio=9.90;
+      articulo[1].cantidad=0;
+      articulo[1].marca={"cloralex","",""};
+      articulo[1].descripcion={"blanquea tela o piisos y desinfecta"};
+
+      articulo[2].ID=2;
+      articulo[2].nombre={"libre enjuage"};
+      articulo[2].precio=18.90;
+      articulo[2].cantidad=0;
+      articulo[2].marca={"downi","ensueño","rower"};
+      articulo[2].descripcion={"quita la espuma de la ropa"};
+
+
+      articulo[3].ID=3;
+      articulo[3].nombre={"tostadas"};
+      articulo[3].precio=14.90;
+      articulo[3].cantidad=0;
+      articulo[3].marca={"milpareal","tostiricas","doñalola"};
+      articulo[3].descripcion={"acompañar guisados 100 porciento maiz natural"};
+
+
+      articulo[4].ID=4;
+      articulo[4].nombre={"papel higienico"};
+      articulo[4].precio=19.90;
+      articulo[4].cantidad=0;
+      articulo[4].marca={"petalo","charmin","regio"};
+      articulo[4].descripcion={"uso huginico en el hogar"};
+
+
+      articulo[5].ID=5;
+      articulo[5].nombre={"jabon neutro"};
+      articulo[5].precio=12.80;
+      articulo[5].cantidad=0;
+      articulo[5].marca={"neutrobalans","palmolive","escudo"};
+      articulo[5].descripcion={"higiene en el cuerpo"};
+
+
+      articulo[6].ID=6;
+      articulo[6].nombre={"chocolate en polvo"};
+      articulo[6].precio=21.90;
+      articulo[6].cantidad=0;
+      articulo[6].marca={"chocomilc","calctoc","nesquiq"};
+      articulo[6].descripcion={""};
+
+
+      articulo[7].ID=7;
+      articulo[7].nombre={"sopa de pasta"};
+      articulo[7].precio=4.0;
+      articulo[7].cantidad=0;
+      articulo[7].marca={"barilla","lamoderna","pastabela"};
+      articulo[7].descripcion={"pasta fresca para cocinar"};
+
+
+      articulo[8].ID=8;
+      articulo[8].nombre={"mantequilla"};
+      articulo[8].precio=14.90;
+      articulo[8].cantidad=0;
+      articulo[8].marca={"primavera","alpura",""};
+      articulo[8].descripcion={"condimento o sasonador"};
+
+
+      articulo[9].ID=9;
+      articulo[9].nombre={"huevo"};
+      articulo[9].precio=28.30;
+      articulo[9].cantidad=0;
+      articulo[9].marca={"bachoco","sannicolas",""};
+      articulo[9].descripcion={"alimento organico"};

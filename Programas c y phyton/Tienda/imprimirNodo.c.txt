@@ -1,0 +1,16 @@
+#include<stdio.h>
+#define p printf
+#define s scanf
+int e=0,i=0;
+struct *particulos;
+particulos=articulos;
+   for(i=0;i<10;i++)
+      if(particulo+i.cantidad!=0){
+        p("\n\t% \n\t",*(particulos+i.ID));
+        p("\n\t% \n\t",*(particulos+i.nombre));
+        p("\n\t% \n\t",*(particulos+i.precio));
+        p("\n\t% \n\t",*(particulos+i.cantidad));
+        p("\n\t% \n\t",*(particulos+i.descripcion));
+        for(e=0;e<3;e++)
+        p("\n\t% \n\t",*(particulos+i.marca+i));}
+

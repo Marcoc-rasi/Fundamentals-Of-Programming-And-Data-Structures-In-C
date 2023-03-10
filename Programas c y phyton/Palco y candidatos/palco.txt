@@ -1,0 +1,44 @@
+En un palco de lujo de un estadio se cuenta con cuatro filas  con cuatro asientos por fila. se le va a ofrecer 
+a cada asistenteun asiento, los que esten disponibles los indicamo  con D los que esten ocupados cn uns x mayusculas. 
+si  la persona elije un lugar disponible se le asigna y se cambia a ocuado , si esta ocupado, le ofrecemos otro. repita el
+procedimiento hast que el palco este lleno.
+
+#include <stdio.h>
+#define s scanf
+#define p printf
+main()
+{
+   int cont=0,i,j,fila,asiento;
+   char palco[5][5]={' ','1','2','3','4',
+                     '1','D','D','D','D',
+                     '2','D','D','D','D',
+                     '3','D','D','D','D',
+                     '4','D','D','D','D'};
+
+   p("\n\n\t bienvenido al palco chavo\n\n\n");
+      do
+       {
+         p("\n\n\t ejila el lugar que desee:\n\n\t");
+           for (i=0;i<5;i++)
+               for (j=0;j<5;j++)
+                   {
+                  p("   %c",palco[i][j]);
+                  p("\n\t"); 
+                    }
+   p("\n\n\t indique el numero de fila\n\t");
+   s("%d",&fila);
+   p("\n\n\t indique el numero de asiento;\n\t ");
+   s("%d",&asiento);
+
+       if (palco[fila][asiento]=='D')
+           {
+             p("\n\n\t bienvenido pase usted al palco\n\n\t");
+             palco[fila][asiento]='X';
+             cont++;
+            }
+       else
+           p("\n\n\tpor favor elija un asiento disponible\n\n\t");
+        }
+while(cont<16);
+p("\n\n\t disfrute el evento\n\n\t");
+}

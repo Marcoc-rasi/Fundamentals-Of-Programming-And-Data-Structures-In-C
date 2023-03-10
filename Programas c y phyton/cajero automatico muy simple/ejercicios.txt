@@ -1,0 +1,12 @@
+10. Escribir un programa que calcule y muestre los valores que se obtienen al realizar
+sen(x) en un intervalo de valores para x. El usuario deberá introducir seleccionará el
+valor inicial, el valor final, así como el incremento de la x
+12. Escribir un programa que calcule y muestre los valores que se obtienen al realizar
+log(x) en un intervalo de valores para x. El usuario deberá introducir seleccionará el
+valor inicial, el valor final, así como el incremento de la x.
+14.- Construya un programa que simule un cajero automático muy simple. Este programa debe permitir 
+realizar múltiples operaciones mientras está en funcionamiento, todo sobre una misma cuenta corriente. 
+Las operaciones pueden ser depósitos, consultas de saldo, retiros (siempre y cuando se cuente con
+ dinero suficiente en la cuenta) y salir. No se permite el sobregiro. Para determinar el saldo inicial
+ de la cuenta corriente, el programa, al inicio, debe permitir por una única vez definir el saldo.
+16. Hacer un programa que calcule el factorial de un número mayor a cero

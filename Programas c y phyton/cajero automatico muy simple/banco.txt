@@ -1,0 +1,42 @@
+14.- Construya un programa que simule un cajero automático muy simple. Este programa debe permitir 
+realizar múltiples operaciones mientras está en funcionamiento, todo sobre una misma cuenta corriente. 
+Las operaciones pueden ser depósitos, consultas de saldo, retiros (siempre y cuando se cuente con
+ dinero suficiente en la cuenta) y salir. No se permite el sobregiro. Para determinar el saldo inicial
+ de la cuenta corriente, el programa, al inicio, debe permitir por una única vez definir el saldo.
+#include <stdio.h>
+#include <math.h>
+#define p printf
+#define s scanf
+#define g gets
+main()
+{ 
+  float cuenta, depositom,saldof, retiro;
+  char nombre [20];
+    p("\n\n\t hola este es un pequeño banco donde puede depositar su dinero primero su nombre \n\n\t");
+    g(nombre);
+    p("\n\n\tcuanto va a deposotar (no importa el monto)\n\t");
+    s("%f",&cuenta);
+    
+           while (i!=0){
+                p("\n\n\t buenas tardes %s estas son las operaciones que puede realizar en este banco\n\n\ta)depositos\n\tb)Consultas de saldo\n\tc)retiros\n\td)salir",nombre);
+         
+                      switch{
+ 
+                             case 'a':case 'A':
+                                               P("\n\n\thola tu saldo actual es de %.2F, cuanto vas a depositar\n\t",cuenta\n\t);
+                                               s("%f",&deposito);
+                                               saldof=cuenta+deposito;
+                                               p("\n\n\t tu saldo actual es %f",saldof\n\t");
+                             case 'b':case 'B':
+                                               P("\n\n\thola tu saldo actual es de %.2F\n\n\t");
+                                               
+                             case 'c':case 'C':
+                                         
+                                               P("\n\n\thola tu saldo actual es de %.2F, cuanto vas a retirar\n\t",cuenta\n\t);
+                                               s("%f",&retiro);
+                                               saldof=cuenta-retiro;
+                                               p("\n\n\t tu saldo actual es %f",saldof\n\t");
+                             case 'd':case 'D':
+                                               p("P("\n\n\thasta luego buen dia\n\n\t2);
+                             default:
+                                               p("P("\n\n\tlo sentimos elije une opcion correcta\n\n\t2);

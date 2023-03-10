@@ -1,0 +1,6 @@
+#ifndef CANCELACIONDEBOLETO_H_INCLUDED
+#define CANCELACIONDEBOLETO_H_INCLUDED
+
+void cancelaciondeboleto(listaAV **listaAviones);
+
+#endif // CANCELACIONDEBOLETO_H_INCLUDED
