@@ -5,8 +5,7 @@ I also have several projects developed with Python in Jupyter Notebook where I m
 
 | Project name | Function description |
 |---|---|
-| Aerolínea |
-The objective of the project is to simulate the operation of an airline that offers flights between different cities, using triple pointers to store and manipulate the information of passengers, flights and reservations. |
+| Aerolínea | The objective of the project is to simulate the operation of an airline that offers flights between different cities, using triple pointers to store and manipulate the information of passengers, flights and reservations. |
 | Area triangulo, circulo, rectángulo  |
 In this link there is the Area triangle, circle, rectangle folder, which contains programs to calculate the area of these geometric figures. The programs ask the user to enter the necessary data to apply the formulas for the area of each figure, such as the base and height of the triangle, the radius of the circle, or the sides of the rectangle. The programs then display the result of the calculation on the screen. These programs are useful for practicing basic programming concepts and geometry. |
 | Banco con tarjetas depositos y mas |
